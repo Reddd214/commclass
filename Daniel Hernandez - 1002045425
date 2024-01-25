@@ -3,12 +3,50 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Daniel Hernandez - 1002045425 | HTML Template">
-        <meta name="author" content="Daniel Hernandez">
+        <meta name="description" content="Student Name - Student ID | HTML Template">
+        <meta name="author" content="Student Name">
 
-        <title>Daniel Hernandez - 1002045425 | Template</title>
+        <title>Student Name - Student ID | Template</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
+    <body>
+
+        <div id="windowSize"></div>
+
+        <script src="js/app.js"></script>
+    </body>
 </html>
-```
+/*
+    Created by: Student Name - Student ID
+    Created on: Today's Date
+    Updated on: Date the file was last updated
+    Project: Project name
+*/
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    padding: 1rem;
+    margin: 0;
+}
+
+/*
+    * Window size styles
+    * Do not edit or delete this from examples
+*/
+#windowSize {
+    padding: 0.25rem 0.5rem;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    user-select: none;
+    z-index: 10;
+}
+/* End of Window size styles */
 <p><br /></p>
